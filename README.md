@@ -43,6 +43,7 @@ O layout foi inspirado no inventário do jogo *Minecraft*, organizando os itens 
 
 - **`login.php`**: Verifica as credenciais do usuário e inicia a sessão.
   - O login utiliza o método **POST** para enviar os dados de login de forma segura, sem exibi-los na URL.
+  - ![Tela de Login](prints/login_post.png)
 ```php
 session_start();
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
